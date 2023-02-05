@@ -1,0 +1,33 @@
+{
+  "name": "@ongojs/db-migrate",
+  "version": "0.0.0",
+  "description": "db-migrate",
+  "main": "index.js",
+  "bin": {
+    "db-migrate": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/db-migrate.git"
+  },
+  "keywords": [
+    "db-migrate"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/db-migrate/issues"
+  },
+  "homepage": "https://github.com/ongojs/db-migrate#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "vitest": "^0.28.4"
+  }
+}

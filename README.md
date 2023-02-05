@@ -5,21 +5,21 @@
 ### Installation
 
 ```bash
-$ yarn add @mongodb-model/db-migrate 
+$ yarn add @ongojs/db-migrate 
 
 ```
  or 
 
 ```bash
 
-$ npm i @mongodb-model/db-migrate
+$ npm i @ongojs/db-migrate
 
 ```
 
 ### Simple Usage Example
 
 ```bash
- const Base = require('@mongodb-model/db-migrate');
+ const Base = require('@ongojs/db-migrate');
  const base = new Base();
  base.apiGet();
  base.on('apiGet', data => console.log(data));
@@ -28,7 +28,7 @@ $ npm i @mongodb-model/db-migrate
 ```
 or 
 ```bash
- class MyWonderfulClass extends require('@mongodb-model/db-migrate') {
+ class MyWonderfulClass extends require('@ongojs/db-migrate') {
 
     constructor(...arrayOfObjects) {
 
